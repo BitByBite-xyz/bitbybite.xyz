@@ -65,7 +65,7 @@ export default function Home() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          bbb
+          &#169; BitByBite 2022
         </a>
       </footer>
     </div>
