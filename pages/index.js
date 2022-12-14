@@ -32,10 +32,8 @@ export default function Home() {
         </h1>
 
         <Spacer />
-        <Switch
-          checked={isDark}
-          onChange={(e) => setTheme(e.target.checked ? 'dark' : 'light')}
-        />
+
+        
         <Spacer />
         <div className={styles.grid}>
 
