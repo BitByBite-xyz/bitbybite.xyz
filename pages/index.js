@@ -3,19 +3,17 @@ import Head from 'next/head'
 import Image from 'next/image'
 import { useTheme as useNextTheme } from 'next-themes'
 import { Switch, useTheme, Spacer } from '@nextui-org/react'
+
 import Script from 'next/script'
+
+import { initializeApp } from "firebase/app";
+import { getAnalytics } from "firebase/analytics";
+import { getPerformance } from "firebase/performance";
 
 import styles from '../styles/Home.module.css'
 
+// Initialize Firebase
 
-// Import the functions you need from the SDKs you need
-import { initializeApp } from "firebase/app";
-import { getAnalytics } from "firebase/analytics";
-// TODO: Add SDKs for Firebase products that you want to use
-// https://firebase.google.com/docs/web/setup#available-libraries
-
-// Your web app's Firebase configuration
-// For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
   apiKey: "AIzaSyBf3BhZKvqIaUwOHRnqgm89qUbuoklcLrM",
   authDomain: "bitbybite-dotxyz.firebaseapp.com",
@@ -26,7 +24,6 @@ const firebaseConfig = {
   measurementId: "G-1E858JGC2R"
 };
 
-// Initialize Firebase
 
 
 export default function Home() {
@@ -37,6 +34,8 @@ export default function Home() {
   useEffect(() => {
     const app = initializeApp(firebaseConfig);
     const analytics = getAnalytics(app);
+    const perf = getPerformance(app);
+
   },[])
 
 
