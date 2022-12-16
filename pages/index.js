@@ -27,7 +27,7 @@ export default function Home() {
       </Head>
 
 
-      <!-- Global site tag (gtag.js) - Google Analytics -->
+      {/*<!-- Global site tag (gtag.js) - Google Analytics -->*/}
       <Script
         src="https://www.googletagmanager.com/gtag/js?id=G-1E858JGC2R"
         strategy="afterInteractive"
