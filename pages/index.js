@@ -55,20 +55,6 @@ export default function Home() {
       </Head>
 
 
-      {/*<!-- Global site tag (gtag.js) - Google Analytics -->*/}
-      <Script
-        src="https://www.googletagmanager.com/gtag/js?id=G-1E858JGC2R"
-        strategy="afterInteractive"
-      />
-      <Script id="google-analytics" strategy="afterInteractive">
-        {`
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){window.dataLayer.push(arguments);}
-          gtag('js', new Date());
-
-          gtag('config', 'G-1E858JGC2R');
-        `}
-      </Script>
       
       
 
