@@ -2,7 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import { useTheme as useNextTheme } from 'next-themes'
 import { Switch, useTheme, Spacer } from '@nextui-org/react'
-
+import Script from 'next/script'
 
 import styles from '../styles/Home.module.css'
 
@@ -25,6 +25,25 @@ export default function Home() {
         <meta name="msapplication-TileColor" content="#da532c" />
         <meta name="theme-color" content="#ffffff"></meta>
       </Head>
+
+
+      <!-- Global site tag (gtag.js) - Google Analytics -->
+      <Script
+        src="https://www.googletagmanager.com/gtag/js?id=G-1E858JGC2R"
+        strategy="afterInteractive"
+      />
+      <Script id="google-analytics" strategy="afterInteractive">
+        {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){window.dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'G-1E858JGC2R');
+        `}
+      </Script>
+      
+      
+
 
       <main className={styles.main}>
         <h1 className={styles.title}>
