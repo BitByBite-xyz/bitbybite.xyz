@@ -34,7 +34,7 @@ function Features() {
         <div className="pt-12 md:pt-20">
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
-            <h1 className="h2 mb-4">Explore the solutions</h1>
+            <h1 className="h2 mb-4">Explore our solutions</h1>
             <p className="text-xl text-gray-600">
               From start to finish, our software development process is highly
               refined and tailored to ensure quality, efficiency, and success.
