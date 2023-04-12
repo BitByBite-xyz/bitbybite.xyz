@@ -49,11 +49,19 @@ function Features() {
               data-aos="fade-right"
             >
               <div className="md:pr-4 lg:pr-12 xl:pr-16 mb-8">
-                <h3 className="h3 mb-3">Powerful suite of tools</h3>
+                <h3 className="h3 mb-3">Our North Star</h3>
                 <p className="text-xl text-gray-600">
-                  Duis aute irure dolor in reprehenderit in voluptate velit esse
-                  cillum dolore pariatur. Excepteur sint occaecat cupidatat non
-                  proident, sunt in culpa.
+                  <span className="font-bold text-black">BitByBite's</span>{" "}
+                  mission is to capture the{" "}
+                  <span className="font-semibold bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-teal-400">
+                    positive
+                  </span>{" "}
+                  potential of artificial intelligence by developing software
+                  solutions focused on{" "}
+                  <span className="font-semibold bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-teal-400">
+                    empowering
+                  </span>{" "}
+                  humankind.​
                 </p>
               </div>
               {/* Tabs buttons */}
@@ -72,11 +80,12 @@ function Features() {
                 >
                   <div>
                     <div className="font-bold leading-snug tracking-tight mb-1">
-                      Product Planning & Design
+                      Responsible Development
                     </div>
                     <div className="text-gray-600">
-                      Take collaboration to the next level with security and
-                      administrative features built for teams.
+                      Our unwavering commitment to responsible AI empowers our
+                      users while mitigating risks and embracing the paradigm
+                      shift.
                     </div>
                   </div>
                   <div className="flex justify-center items-center w-8 h-8 bg-white rounded-full shadow flex-shrink-0 ml-3">
@@ -103,11 +112,12 @@ function Features() {
                 >
                   <div>
                     <div className="font-bold leading-snug tracking-tight mb-1">
-                      Software Development
+                      Constant Growth
                     </div>
                     <div className="text-gray-600">
-                      Take collaboration to the next level with security and
-                      administrative features built for teams.
+                      Our relentless pursuit of education and exploration fuels
+                      our agility, empowering us to surpass our limitations and
+                      adapt to the ever-evolving market.
                     </div>
                   </div>
                   <div className="flex justify-center items-center w-8 h-8 bg-white rounded-full shadow flex-shrink-0 ml-3">
@@ -137,11 +147,12 @@ function Features() {
                 >
                   <div>
                     <div className="font-bold leading-snug tracking-tight mb-1">
-                      Product Distribution
+                      Radical Transparency
                     </div>
                     <div className="text-gray-600">
-                      Take collaboration to the next level with security and
-                      administrative features built for teams.
+                      Transparency, integrity, and honest communication are the
+                      pillars of our success, guiding every interaction with our
+                      users and team members.
                     </div>
                   </div>
                   <div className="flex justify-center items-center w-8 h-8 bg-white rounded-full shadow flex-shrink-0 ml-3">

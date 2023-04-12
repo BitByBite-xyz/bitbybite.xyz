@@ -36,6 +36,14 @@ function Footer() {
             <ul className="text-sm">
               <li className="mb-2">
                 <Link
+                  to="https://casely.app/"
+                  className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out"
+                >
+                  Casely
+                </Link>
+              </li>
+              <li className="mb-2">
+                <Link
                   to="https://resumerocket.xyz/"
                   className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out"
                 >
