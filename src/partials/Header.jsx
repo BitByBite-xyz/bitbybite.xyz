@@ -14,15 +14,11 @@ function Header() {
   }, [top]);
 
   return (
-    <header
-      className={`fixed w-full z-30 md:bg-opacity-90 transition duration-300 ease-in-out ${
-        !top && "bg-white backdrop-blur-sm shadow-lg"
-      }`}
-    >
+    <header className="fixed w-full z-30 md:bg-opacity-90 transition duration-300 ease-in-out bg-white backdrop-blur-sm shadow-lg">
       <div className="max-w-6xl mx-auto px-5 sm:px-6">
         <div className="flex items-center justify-between h-16 md:h-20">
           {/* Site branding */}
-          <div className="flex-shrink-0 mr-4">
+          <div className="flex-shrink-0 flex items-center mr-4">
             {/* Logo */}
             <Link to="/" className="block" aria-label="Cruip">
               <svg
@@ -68,6 +64,7 @@ function Header() {
                 </g>
               </svg>
             </Link>
+            <span className="font-semibold text-black text-2xl">BitByBite</span>
           </div>
 
           {/* Site navigation */}
