@@ -80,7 +80,7 @@ function Testimonials() {
                     <img
                       src="https://logos-world.net/wp-content/uploads/2020/08/Caterpillar-Logo.png"
                       alt="Cat Logo"
-                      className="w-20 h-auto mr-2 mt-[10px]"
+                      className="w-20 h-auto mt-[10px]"
                     />
                   </div>
                 </div>
@@ -110,7 +110,7 @@ function Testimonials() {
                     <img
                       src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/William_Blair_wordmark.svg/1280px-William_Blair_wordmark.svg.png"
                       alt="William & Blair Logo"
-                      className="w-[110px] h-auto mr-2 mt-[17px]"
+                      className="w-[110px] h-auto mt-[17px]"
                     />
                   </div>
                 </div>
@@ -140,7 +140,7 @@ function Testimonials() {
                     <img
                       src="https://180dc.org/wp-content/uploads/2018/12/Bain-Company-Logo.png"
                       alt="Bain & Company Logo"
-                      className="w-[90px] h-auto mr-2 mt-[5px]"
+                      className="w-[90px] h-auto mt-[5px]"
                     />
                   </div>
                 </div>
