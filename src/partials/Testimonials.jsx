@@ -58,9 +58,9 @@ function Testimonials() {
           {/* Meet The Founders */}
           <div className="flex flex-wrap justify-center mt-[-70px]">
             <div className="max-w-3xl mx-auto mt-20" data-aos="zoom-y-out">
-              <div className="relative max-w-sm center-text border-2 border-gray-200 rounded bg-white">
+              <div className="relative max-w-sm center-text border-2 border-gray-200 rounded bg-white max-h-[210px]">
                 {/* Jacob Sussman */}
-                <div className="text-center px-12 py-8 pt-20 mx-4 md:mx-0">
+                <div className="text-center px-12 py-8 pt-20 mx-4 md:mx-0 flex flex-col items-center">
                   <div className="absolute top-0 -mt-8 left-1/2 transform -translate-x-1/2">
                     <img
                       className="relative rounded-full"
@@ -76,24 +76,28 @@ function Testimonials() {
                   <div className="text-gray-600">
                     <span>CTO & Co-Founder</span>
                   </div>
-                  <div className="text-gray-600">
-                    <span>Caterpillar Software Engineer</span>
+                  <div className="text-gray-600 flex items-center">
+                    <img
+                      src="https://logos-world.net/wp-content/uploads/2020/08/Caterpillar-Logo.png"
+                      alt="Cat Logo"
+                      className="w-20 h-auto mr-2 mt-[10px]"
+                    />
                   </div>
                 </div>
               </div>
             </div>
 
             <div className="max-w-3xl mx-auto mt-20" data-aos="zoom-y-out">
-              <div className="relative max-w-sm center-text border-2 border-gray-200 rounded bg-white">
+              <div className="relative max-w-sm center-text border-2 border-gray-200 rounded bg-white max-h-[210px]">
                 {/* Ian Park */}
-                <div className="text-center px-12 py-8 pt-20 mx-4 md:mx-0">
+                <div className="text-center px-12 py-8 pt-20 mx-4 md:mx-0 flex flex-col items-center">
                   <div className="absolute top-0 -mt-8 left-1/2 transform -translate-x-1/2">
                     <img
                       className="relative rounded-full"
                       src={IanPark}
                       width="96"
                       height="96"
-                      alt="Testimonial 01"
+                      alt="Ian Park"
                     />
                   </div>
                   <cite className="block font-bold text-lg not-italic mb-1">
@@ -102,24 +106,28 @@ function Testimonials() {
                   <div className="text-gray-600">
                     <span>CPO & Co-Founder</span>
                   </div>
-                  <div className="text-gray-600">
-                    <span>William Blair Banking Analyst</span>
+                  <div className="text-gray-600 flex items-center">
+                    <img
+                      src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/William_Blair_wordmark.svg/1280px-William_Blair_wordmark.svg.png"
+                      alt="Cat Logo"
+                      className="w-[110px] h-auto mr-2 mt-[17px]"
+                    />
                   </div>
                 </div>
               </div>
             </div>
 
             <div className="max-w-3xl mx-auto mt-20" data-aos="zoom-y-out">
-              <div className="relative max-w-sm center-text border-2 border-gray-200 rounded bg-white">
-                {/* Rick Song */}
-                <div className="text-center px-12 py-8 pt-20 mx-4 md:mx-0">
+              <div className="relative max-w-sm center-text border-2 border-gray-200 rounded bg-white max-h-[210px]">
+                {/* Rick Song  */}
+                <div className="text-center px-12 py-8 pt-20 mx-4 md:mx-0 flex flex-col items-center">
                   <div className="absolute top-0 -mt-8 left-1/2 transform -translate-x-1/2">
                     <img
                       className="relative rounded-full"
                       src={RickSong}
                       width="96"
                       height="96"
-                      alt="Testimonial 01"
+                      alt="Rick Song"
                     />
                   </div>
                   <cite className="block font-bold text-lg not-italic mb-1">
@@ -128,8 +136,12 @@ function Testimonials() {
                   <div className="text-gray-600">
                     <span>CEO & Co-Founder</span>
                   </div>
-                  <div className="text-gray-600">
-                    <span>Chief of Staff to the CEO at La Hoja</span>
+                  <div className="text-gray-600 flex items-center">
+                    <img
+                      src="https://assets.website-files.com/60ef18b8f51f237aec2d9fc2/60f9eb2d7690e7ae8ad8c46e_LHCM-brand.png"
+                      alt="Cat Logo"
+                      className="w-[70px] h-auto mr-2 mt-[8px]"
+                    />
                   </div>
                 </div>
               </div>
