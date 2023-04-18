@@ -26,7 +26,7 @@ function FeaturesBlocks() {
           {/* Items */}
           <div className="max-w-sm mx-auto grid gap-6 md:grid-cols-2 lg:grid-cols-3 items-start md:max-w-2xl lg:max-w-none">
             {/* 1st item */}
-            <div className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl">
+            <div className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl min-h-[290px]">
               <svg
                 className="w-16 h-16 p-1 -mt-1 mb-2"
                 viewBox="0 0 64 64"
@@ -65,14 +65,15 @@ function FeaturesBlocks() {
                 Constant Growth
               </h4>
               <p className="text-gray-600 text-center">
-                Our relentless pursuit of education and exploration fuels our
-                agility, empowering us to surpass our limitations and adapt to
-                the ever-evolving market.
+                We push our users and team members to become greater versions of
+                ourselves through a continuous cycle of education. An emphasis
+                on exploration and curiousity enables agility and allows us to
+                adapt to market needs
               </p>
             </div>
 
             {/* 2nd item */}
-            <div className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl">
+            <div className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl min-h-[290px]">
               <svg
                 className="w-16 h-16 p-1 -mt-1 mb-2"
                 viewBox="0 0 64 64"
@@ -108,13 +109,15 @@ function FeaturesBlocks() {
                 Responsible Development
               </h4>
               <p className="text-gray-600 text-center">
-                Our unwavering commitment to responsible AI empowers our users
-                while mitigating risks and embracing the paradigm shift.
+                We recognize the power of artificial intelligence, its inherent
+                risks and the paradigm shift in progress. We are committed to
+                the safe and responsible development of artificial intelligence
+                for the purpose of emporing our users.
               </p>
             </div>
 
             {/* 3rd item */}
-            <div className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl">
+            <div className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl min-h-[290px]">
               <svg
                 className="w-16 h-16 p-1 -mt-1 mb-2"
                 viewBox="0 0 64 64"
@@ -143,9 +146,9 @@ function FeaturesBlocks() {
                 Radical Transparency
               </h4>
               <p className="text-gray-600 text-center">
-                Transparency, integrity, and honest communication are the
-                pillars of our success, guiding every interaction with our users
-                and team members.
+                We act with full transparency and integrity in everything we do,
+                especially with out users and team members. We believe open and
+                honest communication is paramount to success.
               </p>
             </div>
           </div>
