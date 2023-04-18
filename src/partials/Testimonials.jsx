@@ -46,7 +46,13 @@ function Testimonials() {
         <div className="py-12 md:py-20">
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
-            <h2 className="h2 mb-4">Meet the founders</h2>
+            <div className="flex flex-col items-center mb-4">
+              <h2 className="h2">Our Team</h2>
+              <div className="bg-gradient-to-r from-purple-500 to-pink-300 h-1 w-16 rounded-md my-2"></div>
+            </div>
+            <p className="text-xl text-gray-600">
+              We bring a dynamic range of expertise from leading global firms
+            </p>
           </div>
 
           {/* Meet The Founders */}

@@ -20,13 +20,12 @@ function HeroHome() {
           className="pt-[100px] text-white text-5xl md:text-6xl font-extrabold leading-tighter tracking-tighter mb-4"
           data-aos="zoom-y-out"
         >
-          Teaching people to <br />
-          learn{" "}
           <span
             className="text-white"
             style={{ textShadow: "5px 5px 1px rgba(0, 0, 0, 0.25)" }}
           >
-            smart
+            Teaching people to <br />
+            learn smart
           </span>
         </h1>
         <div className="max-w-3xl mx-auto">
@@ -42,7 +41,7 @@ function HeroHome() {
             >
               BitByBite
             </span>
-            , We capture the positive potential of artificial intelligence by
+            , we capture the positive potential of artificial intelligence by
             developing software solutions focused on emporing humankind
           </p>
         </div>
