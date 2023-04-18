@@ -112,7 +112,7 @@ function FeaturesBlocks() {
                 We recognize the power of artificial intelligence, its inherent
                 risks and the paradigm shift in progress. We are committed to
                 the safe and responsible development of artificial intelligence
-                for the purpose of emporing our users.
+                for the purpose of empowering our users.
               </p>
             </div>
 

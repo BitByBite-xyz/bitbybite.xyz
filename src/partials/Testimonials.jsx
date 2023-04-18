@@ -109,7 +109,7 @@ function Testimonials() {
                   <div className="text-gray-600 flex items-center">
                     <img
                       src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/William_Blair_wordmark.svg/1280px-William_Blair_wordmark.svg.png"
-                      alt="Cat Logo"
+                      alt="William & Blair Logo"
                       className="w-[110px] h-auto mr-2 mt-[17px]"
                     />
                   </div>
@@ -138,9 +138,9 @@ function Testimonials() {
                   </div>
                   <div className="text-gray-600 flex items-center">
                     <img
-                      src="https://assets.website-files.com/60ef18b8f51f237aec2d9fc2/60f9eb2d7690e7ae8ad8c46e_LHCM-brand.png"
-                      alt="Cat Logo"
-                      className="w-[70px] h-auto mr-2 mt-[8px]"
+                      src="https://180dc.org/wp-content/uploads/2018/12/Bain-Company-Logo.png"
+                      alt="Bain & Company Logo"
+                      className="w-[90px] h-auto mr-2 mt-[5px]"
                     />
                   </div>
                 </div>
