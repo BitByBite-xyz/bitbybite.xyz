@@ -140,7 +140,7 @@ function Testimonials() {
                     <img
                       src="https://180dc.org/wp-content/uploads/2018/12/Bain-Company-Logo.png"
                       alt="Bain & Company Logo"
-                      className="w-[90px] h-auto mt-[5px]"
+                      className="w-[90px] h-auto ml-[5px] mt-[5px]"
                     />
                   </div>
                 </div>
