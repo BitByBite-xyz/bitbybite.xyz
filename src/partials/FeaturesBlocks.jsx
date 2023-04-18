@@ -2,7 +2,7 @@ import React from "react";
 
 function FeaturesBlocks() {
   return (
-    <section className="relative h-screen">
+    <section className="relative">
       {/* Section background (needs .relative class on parent and next sibling elements) */}
       <div
         className="absolute inset-0 top-1/2 md:mt-24 lg:mt-0 pointer-events-none"
@@ -68,7 +68,7 @@ function FeaturesBlocks() {
                 We push our users and team members to become greater versions of
                 ourselves through a continuous cycle of education. An emphasis
                 on exploration and curiousity enables agility and allows us to
-                adapt to market needs
+                adapt to market needs.
               </p>
             </div>
 
