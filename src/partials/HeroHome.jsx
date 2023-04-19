@@ -42,7 +42,7 @@ function HeroHome() {
               BitByBite
             </span>
             , we capture the positive potential of artificial intelligence by
-            developing software solutions focused on empowering humankind
+            developing software solutions focused on empowering humankind.
           </p>
         </div>
       </div>

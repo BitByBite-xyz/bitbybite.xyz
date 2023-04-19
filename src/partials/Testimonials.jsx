@@ -51,7 +51,7 @@ function Testimonials() {
               <div className="bg-gradient-to-r from-purple-500 to-pink-300 h-1 w-16 rounded-md my-2"></div>
             </div>
             <p className="text-xl text-gray-600">
-              We bring a dynamic range of expertise from leading global firms
+              We bring a dynamic range of expertise from leading global firms.
             </p>
           </div>
 

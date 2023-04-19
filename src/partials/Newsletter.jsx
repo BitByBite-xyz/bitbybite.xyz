@@ -104,7 +104,7 @@ function Newsletter() {
                 <h3 className="h3 text-white mb-2">Join Our Mailing List</h3>
                 <p className="text-white text-lg mb-6">
                   Join our mailing list to get updates on new features and
-                  upcoming business events
+                  upcoming products.
                 </p>
 
                 {/* CTA form */}
