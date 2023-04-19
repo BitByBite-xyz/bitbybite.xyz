@@ -58,7 +58,7 @@ function Testimonials() {
           {/* Meet The Founders */}
           <div className="flex flex-wrap justify-center mt-[-70px]">
             <div className="max-w-3xl mx-auto mt-20" data-aos="zoom-y-out">
-              <div className="relative max-w-sm center-text border-2 border-gray-200 rounded bg-white max-h-[210px]">
+              <div className="relative max-w-sm center-text border-2 border-gray-200 rounded bg-white max-h-[210px] w-[250px]">
                 {/* Jacob Sussman */}
                 <div className="text-center px-12 py-8 pt-20 mx-4 md:mx-0 flex flex-col items-center">
                   <div className="absolute top-0 -mt-8 left-1/2 transform -translate-x-1/2">
@@ -74,13 +74,13 @@ function Testimonials() {
                     Jacob Sussman
                   </cite>
                   <div className="text-gray-600">
-                    <span>CTO & Co-Founder</span>
+                    <span>CTO</span>
                   </div>
                   <div className="text-gray-600 flex items-center">
                     <img
                       src="https://logos-world.net/wp-content/uploads/2020/08/Caterpillar-Logo.png"
                       alt="Cat Logo"
-                      className="w-20 h-auto mt-[10px]"
+                      className="w-20 h-auto m-t-[3px]"
                     />
                   </div>
                 </div>
@@ -88,7 +88,7 @@ function Testimonials() {
             </div>
 
             <div className="max-w-3xl mx-auto mt-20" data-aos="zoom-y-out">
-              <div className="relative max-w-sm center-text border-2 border-gray-200 rounded bg-white max-h-[210px]">
+              <div className="relative max-w-sm center-text border-2 border-gray-200 rounded bg-white max-h-[210px] w-[250px]">
                 {/* Ian Park */}
                 <div className="text-center px-12 py-8 pt-20 mx-4 md:mx-0 flex flex-col items-center">
                   <div className="absolute top-0 -mt-8 left-1/2 transform -translate-x-1/2">
@@ -104,7 +104,7 @@ function Testimonials() {
                     Ian Park
                   </cite>
                   <div className="text-gray-600">
-                    <span>CPO & Co-Founder</span>
+                    <span>CPO | CFO</span>
                   </div>
                   <div className="text-gray-600 flex items-center">
                     <img
@@ -118,7 +118,7 @@ function Testimonials() {
             </div>
 
             <div className="max-w-3xl mx-auto mt-20" data-aos="zoom-y-out">
-              <div className="relative max-w-sm center-text border-2 border-gray-200 rounded bg-white max-h-[210px]">
+              <div className="relative max-w-sm center-text border-2 border-gray-200 rounded bg-white max-h-[210px] w-[250px]">
                 {/* Rick Song  */}
                 <div className="text-center px-12 py-8 pt-20 mx-4 md:mx-0 flex flex-col items-center">
                   <div className="absolute top-0 -mt-8 left-1/2 transform -translate-x-1/2">
@@ -134,7 +134,7 @@ function Testimonials() {
                     Rick Song
                   </cite>
                   <div className="text-gray-600">
-                    <span>CEO & Co-Founder</span>
+                    <span>CEO | COO</span>
                   </div>
                   <div className="text-gray-600 flex items-center">
                     <img
