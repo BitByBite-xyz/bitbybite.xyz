@@ -8,9 +8,13 @@ function Contact() {
   const [company, setCompany] = useState("");
   const [name, setName] = useState("");
 
+  const [isLoading, setLoading] = useState(false);
+
   const navigate = useNavigate();
 
   async function submitForm() {
+    setLoading(true);
+
     try {
       const response = await fetch(
         `https://us-central1-bitbybite-dotxyz.cloudfunctions.net/sendContactEmail?company=${company}&name=${name}&email=${email}`,
@@ -22,6 +26,7 @@ function Contact() {
         }
       );
 
+      setLoading(false);
       if (response.ok) {
         console.log("Email sent");
         navigate("/");
@@ -112,8 +117,37 @@ function Contact() {
 
                   <div className="flex flex-wrap -mx-3 mt-6">
                     <div className="w-full px-3">
-                      <button className="btn text-white bg-blue-600 hover:bg-blue-700 w-full">
-                        Get in touch
+                      <button
+                        style={{
+                          backgroundColor:
+                            "rgba(37, 99, 235, var(--tw-bg-opacity))",
+                          color: "white",
+                          padding: "0.5rem 1rem",
+                          borderRadius: "0.25rem",
+                          width: "100%",
+                          opacity: isLoading ? 0.5 : 1,
+                          cursor: isLoading ? "not-allowed" : "pointer",
+                        }}
+                        disabled={isLoading}
+                      >
+                        {isLoading ? (
+                          <>
+                            <span
+                              style={{
+                                display: "inline-block",
+                                width: "1rem",
+                                height: "1rem",
+                                marginRight: "0.5rem",
+                                borderTop: "2px solid white",
+                                borderRadius: "50%",
+                                animation: "spin 1s linear infinite",
+                              }}
+                            ></span>
+                            Loading...
+                          </>
+                        ) : (
+                          "Get in touch"
+                        )}
                       </button>
                     </div>
                   </div>
