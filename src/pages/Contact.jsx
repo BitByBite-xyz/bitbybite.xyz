@@ -1,14 +1,42 @@
-import React from "react";
-import { Link } from "react-router-dom";
+import React, { useState } from "react";
+import { useNavigate } from "react-router-dom";
 
 import Header from "../partials/Header";
 
 function Contact() {
+  const [email, setEmail] = useState("");
+  const [company, setCompany] = useState("");
+  const [name, setName] = useState("");
+
+  const navigate = useNavigate();
+
+  async function submitForm() {
+    try {
+      const response = await fetch(
+        `https://us-central1-bitbybite-dotxyz.cloudfunctions.net/sendContactEmail?company=${company}&name=${name}&email=${email}`,
+        {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+        }
+      );
+
+      if (response.ok) {
+        console.log("Email sent");
+        navigate("/");
+      } else {
+        console.error("Failed to send email");
+      }
+    } catch (error) {
+      console.error(error);
+    }
+  }
+
   return (
     <div className="flex flex-col min-h-screen overflow-hidden">
       {/*  Site header */}
       <Header />
-
       {/*  Page content */}
       <main className="flex-grow">
         <section className="bg-gradient-to-b from-gray-100 to-white">
@@ -21,7 +49,12 @@ function Contact() {
 
               {/* Form */}
               <div className="max-w-sm mx-auto">
-                <form>
+                <form
+                  onSubmit={(e) => {
+                    e.preventDefault();
+                    submitForm();
+                  }}
+                >
                   <div className="flex flex-wrap -mx-3 mb-4">
                     <div className="w-full px-3">
                       <label
@@ -35,6 +68,7 @@ function Contact() {
                         type="text"
                         className="form-input w-full text-gray-800"
                         placeholder="Enter your company name"
+                        onChange={(e) => setCompany(e.target.value)}
                         required
                       />
                     </div>
@@ -52,6 +86,7 @@ function Contact() {
                         type="text"
                         className="form-input w-full text-gray-800"
                         placeholder="Enter your name"
+                        onChange={(e) => setName(e.target.value)}
                         required
                       />
                     </div>
@@ -69,6 +104,7 @@ function Contact() {
                         type="email"
                         className="form-input w-full text-gray-800"
                         placeholder="Enter your email address"
+                        onChange={(e) => setEmail(e.target.value)}
                         required
                       />
                     </div>
