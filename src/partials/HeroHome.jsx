@@ -12,7 +12,7 @@ function HeroHome() {
       className="relative w-screen bg-cover bg-center flex items-center justify-center left-0 h-screen"
       style={{
         backgroundImage:
-          "url('https://gcdnb.pbrd.co/images/ArfDLthFAKkL.png?o=1')",
+          "url('https://i.postimg.cc/Df9VVhd0/Banner-Compressed.png')",
       }}
     >
       <div className="text-center pb-12 md:pb-16">
