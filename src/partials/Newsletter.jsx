@@ -1,6 +1,38 @@
-import React from "react";
+import React, { useState } from "react";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 function Newsletter() {
+  const [email, setEmail] = useState("");
+
+  async function addSubscriber() {
+    setLoading(true);
+
+    try {
+      const response = await fetch(
+        `https://us-central1-bitbybite-dotxyz.cloudfunctions.net/sendContactEmail?email=${email}`,
+        {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+        }
+      );
+
+      toast.success("Thanks for subscribing!", {
+        position: toast.POSITION.BOTTOM_CENTER,
+      });
+      if (response.ok) {
+        console.log("Subscriber added");
+        navigate("/");
+      } else {
+        console.error("Failed to add subscriber");
+      }
+    } catch (error) {
+      console.error(error);
+    }
+  }
+
   return (
     <section>
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
@@ -115,24 +147,24 @@ function Newsletter() {
                       className="form-input w-full appearance-none bg-white border border-gray-300 focus:border-gray-400 rounded-sm px-4 py-3 mb-2 sm:mb-0 sm:mr-2 text-gray-900 placeholder-gray-500"
                       placeholder="Your email…"
                       aria-label="Your email…"
+                      onChange={(e) => setEmail(e.target.value)}
                     />
 
                     <a
                       className="btn text-white bg-blue-600 hover:bg-blue-700 shadow"
                       href="#0"
+                      onClick={addSubscriber}
                     >
                       Subscribe
                     </a>
                   </div>
-                  {/* <p className="text-sm text-gray-400 mt-3">
-                    7 days free trial. No credit card required.
-                  </p> */}
                 </form>
               </div>
             </div>
           </div>
         </div>
       </div>
+      <ToastContainer />
     </section>
   );
 }
