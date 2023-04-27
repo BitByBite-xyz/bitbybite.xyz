@@ -150,7 +150,6 @@ function Newsletter() {
 
                     <a
                       className="btn text-white bg-blue-600 hover:bg-blue-700 shadow"
-                      href="#0"
                       onClick={addSubscriber}
                     >
                       Subscribe
