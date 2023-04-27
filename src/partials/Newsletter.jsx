@@ -6,8 +6,6 @@ function Newsletter() {
   const [email, setEmail] = useState("");
 
   async function addSubscriber() {
-    setLoading(true);
-
     try {
       const response = await fetch(
         `https://us-central1-bitbybite-dotxyz.cloudfunctions.net/sendContactEmail?email=${email}`,
