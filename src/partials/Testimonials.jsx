@@ -105,7 +105,7 @@ function Testimonials() {
                     Ian Park
                   </cite>
                   <div className="text-gray-600">
-                    <span>CPO</span>
+                    <span>COO</span>
                   </div>
                   <div className="text-gray-600 flex items-center">
                     <img
