@@ -3,6 +3,7 @@ import React from "react";
 import JacobSussman from "../images/JacobSussman.jpg";
 import IanPark from "../images/IanPark.jpg";
 import RickSong from "../images/RickSong.jpg";
+import SashwatDas from "../images/SashwatDas.jpg";
 
 function Testimonials() {
   return (
@@ -104,7 +105,7 @@ function Testimonials() {
                     Ian Park
                   </cite>
                   <div className="text-gray-600">
-                    <span>CPO | CFO</span>
+                    <span>CPO</span>
                   </div>
                   <div className="text-gray-600 flex items-center">
                     <img
@@ -134,13 +135,43 @@ function Testimonials() {
                     Rick Song
                   </cite>
                   <div className="text-gray-600">
-                    <span>CEO | COO</span>
+                    <span>CEO</span>
                   </div>
                   <div className="text-gray-600 flex items-center">
                     <img
                       src="https://180dc.org/wp-content/uploads/2018/12/Bain-Company-Logo.png"
                       alt="Bain & Company Logo"
                       className="w-[90px] h-auto ml-[5px] mt-[5px]"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className="max-w-3xl mx-auto mt-20" data-aos="zoom-y-out">
+              <div className="relative max-w-sm center-text border-2 border-gray-200 rounded bg-white max-h-[210px] w-[250px]">
+                {/* Ian Park */}
+                <div className="text-center px-12 py-8 pt-20 mx-4 md:mx-0 flex flex-col items-center">
+                  <div className="absolute top-0 -mt-8 left-1/2 transform -translate-x-1/2">
+                    <img
+                      className="relative rounded-full"
+                      src={SashwatDas}
+                      width="96"
+                      height="96"
+                      alt="Ian Park"
+                    />
+                  </div>
+                  <cite className="block font-bold text-lg not-italic mb-1">
+                    Sashwat Das
+                  </cite>
+                  <div className="text-gray-600">
+                    <span>CAIO</span>
+                  </div>
+                  <div className="text-gray-600 flex items-center">
+                    <img
+                      src="https://www.statestreet.com/Logo.svg"
+                      alt="William & Blair Logo"
+                      className="w-[110px] h-auto mt-[17px]"
                     />
                   </div>
                 </div>
