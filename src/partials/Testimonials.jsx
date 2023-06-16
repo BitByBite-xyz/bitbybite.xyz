@@ -165,7 +165,7 @@ function Testimonials() {
                     Sashwat Das
                   </cite>
                   <div className="text-gray-600">
-                    <span>CAIO</span>
+                    <span>CIO</span>
                   </div>
                   <div className="text-gray-600 flex items-center">
                     <img
